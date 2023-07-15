@@ -4,7 +4,6 @@
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,7 +13,7 @@ int main(void)
     srand(time(0));
     n = rand() - RAND_MAX / 2;
     
-    int lastDigit = abs(n % 10); // Obtain the last digit (absolute value to handle negative numbers)
+    int lastDigit = abs(n % 10);
 
     printf("Last digit of %d is %d and is ", n, lastDigit);
 
