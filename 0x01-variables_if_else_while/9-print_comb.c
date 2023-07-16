@@ -13,7 +13,8 @@ int main(void)
         putchar(start + 48);
         if (start == 9)
         {
-            start++;
+          putchar(' ');  
+	  start++;
         }
         else
         {
