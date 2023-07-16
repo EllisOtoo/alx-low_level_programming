@@ -9,13 +9,15 @@ int main(void)
 {
     char start = 'a';
     char end = 'z';
-    for (char c = start; c <= end; c++)
+    while (start <= end)
     {
-        if (c == 'q' || c == 'e')
+        if (start == 'q' || start == 'e')
         {
+            start++;
             continue;
         }
-        putchar(c);
+        putchar(start);
+        start++;
     }
     printf("\n");
     return (0);
