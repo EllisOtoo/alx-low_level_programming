@@ -1,13 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
-void reset_to_98(int *n) {
-    *n = 98;
-}
+/**
+*reset_to_98 - takes a point to int,  updates the value it points to to 98
+*Return: no return
+*/
 
-int main() {
-    int n = 402;
-    reset_to_98(&n);
-    return 0;
-}
-    
+void reset_to_98(int *n)
+{
+	*n = 98;
+}    
